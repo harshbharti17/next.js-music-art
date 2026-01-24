@@ -39,3 +39,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.stickybar::-webkit-scrollbar {
+  display: none;
+}
