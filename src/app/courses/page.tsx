@@ -14,19 +14,19 @@ function page() {
             <CardContainer key={course.id} className="inter-var m-4">
               <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/10 dark:bg-black dark:border-white/20 border-black/10 w-auto sm:w-120 h-auto rounded-xl p-6 border">
                 <CardItem
-                  translateZ="50"
+                  translateZ={50}
                   className="text-xl font-bold text-neutral-600 dark:text-white"
                 >
                   {course.title}
                 </CardItem>
                 <CardItem
                   as="p"
-                  translateZ="60"
+                  translateZ={60}
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
                   {course.description}
                 </CardItem>
-                <CardItem translateZ="100" className="w-full mt-4">
+                <CardItem translateZ={100} className="w-full mt-4">
                   <img
                     src={course.image}
                     height="1000"
