@@ -1,3 +1,4 @@
+import { Meteors } from "@/components/ui/meteors"
 
 
 function page() {
@@ -11,6 +12,7 @@ function page() {
                 programs, or events. Reach out and let us know how we can assist you
                 in your musical journey.
             </p>
+            <Meteors number={100} />
         </div>
     )
 }
